@@ -59,7 +59,6 @@ print("value of s3 =", s3)
 print(id(s1))   # it is original copy
 print(id(s2))   # it is shallow copy
 print(id(s3))   # it is deep copy
-"""
 s = [10,20,30,40,50,60,10,20,20,30]
 print(s.count(10))
 print(s.count(20))
@@ -69,5 +68,11 @@ s.extend(102.3)
 print(s)
 s.clear()
 print(s)
-
-
+day 1;
+"""
+print('hello')
+print("hello")
+print('"hello"')
+print(23 * 9)
+100
+print(id(100))
